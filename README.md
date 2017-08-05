@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Concept_Check](https://github.com/Boostorg/Concept_Check) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Concept_Check%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Concept_Check%3Abincrafters).
 
 ## For Users: Use this package
 

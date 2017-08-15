@@ -8,14 +8,7 @@ class BoostConcept_CheckConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     requires =  "Boost.Level5Group/1.64.0@bincrafters/testing"
-   
-    def package_info(self):
-        self.user_info.lib_short_names = self.lib_short_names
-        self.cpp_info.includedirs = []
-        
-    def package_id(self):
-        self.info.header_only()
-        
+          
     #This library is part of one or more cyclic dependency groups within Boost.
     
     #All members of cyclic dependency groups must be built under single package per group for Conan.

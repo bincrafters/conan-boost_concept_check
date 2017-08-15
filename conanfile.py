@@ -10,6 +10,7 @@ class BoostConcept_CheckConan(ConanFile):
     requires =  "Boost.Level5Group/1.64.0@bincrafters/testing"
    
     def package_info(self):
+        self.user_info.lib_short_names = self.lib_short_names
         self.cpp_info.includedirs = []
         
     def package_id(self):

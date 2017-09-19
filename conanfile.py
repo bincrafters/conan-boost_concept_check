@@ -7,7 +7,7 @@ class BoostConcept_CheckConan(ConanFile):
     url = "https://github.com/bincrafters/conan-boost-concept_check"
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
-    requires =  "Boost.Level5Group/1.65.1@bincrafters/testing"
+    requires =  "Boost.Level5Group/1.65.1@bincrafters/stable"
           
     #This library is part of one or more cyclic dependency groups within Boost.
     

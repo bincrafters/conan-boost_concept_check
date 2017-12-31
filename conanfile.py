@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostConcept_CheckConan(ConanFile):
     name = "boost_concept_check"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-concept_check"
+    url = "https://github.com/bincrafters/conan-boost_concept_check"
 
     lib_short_names = ["concept_check"]
     is_in_cycle_group = True

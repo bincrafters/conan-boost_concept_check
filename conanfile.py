@@ -8,7 +8,8 @@ class BoostConcept_CheckConan(ConanFile):
     name = "boost_concept_check"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_concept_check"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["concept_check"]
     is_in_cycle_group = True
     is_header_only = True

@@ -4,7 +4,7 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.68.0@bincrafters/testing")
+base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostConcept_CheckConan(base.BoostBaseConan):
     name = "boost_concept_check"
@@ -13,7 +13,7 @@ class BoostConcept_CheckConan(base.BoostBaseConan):
     header_only_libs = ["concept_check"]
     b2_requires = [
         "boost_config",
-        "boost_mpl",
         "boost_preprocessor",
+        "boost_static_assert",
         "boost_type_traits"
     ]

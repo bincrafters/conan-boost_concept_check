@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.67.0@bincrafters/testing")
 
 class BoostConcept_CheckConan(base.BoostBaseConan):
     name = "boost_concept_check"
+    version = "1.67.0"
     url = "https://github.com/bincrafters/conan-boost_concept_check"
     lib_short_names = ["concept_check"]
     header_only_libs = ["concept_check"]
